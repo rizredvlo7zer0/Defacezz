@@ -234,3 +234,7 @@ elseif($_GET['go'] == 'delet') {
 	<input type='submit' name='start' value='Goo!' style='width: 300px;'>
 	</form>";
 		echo"<u><a href='https://api.whatsapp.com/send?phone=6285745620638&text=' target='_blank'>Say hello to me :)</a></u></center>";
+}
+}
+}
+?>
